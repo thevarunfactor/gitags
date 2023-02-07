@@ -11,7 +11,7 @@ base_url = "https://search.ipindia.gov.in/GIRPublic/Application/Details/"
 dfmain = pd.DataFrame()
 df = pd.DataFrame()
 lis={}
-#There are 1055 GI tag pages as of Feb 7, 2022: registered, rejected, being examined etc.
+#There are 1055 GI tag pages as of Feb 7, 2023: registered, rejected, being examined etc.
 for page_num in range(1,1055):
     # Construct the URL for the current page
     page_url = base_url + str(page_num)
